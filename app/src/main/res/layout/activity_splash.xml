@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nequiz.golden.SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/imgScreen1"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_golden" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgScreen1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="obteniendo_configuraciones"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgScreen2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="SISTEMAS SOLARES DE URUAPAN" />
+
+    <ImageView
+        android:id="@+id/imgScreen2"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>
+
+
